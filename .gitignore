@@ -1,6 +1,7 @@
 dist
 dist-*
 cabal-dev
+*.skey
 *.o
 *.hi
 *.hie
