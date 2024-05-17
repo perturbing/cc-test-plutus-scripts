@@ -1,0 +1,90 @@
+{
+    "constructor": 0,
+    "fields": [
+        {
+            "constructor": 0,
+            "fields": [
+                {
+                    "bytes": "7f8545309e6bafc39fff02dc7daa7c79cb851133856673b2d6dca2d5"
+                },
+                {
+                    "bytes": "0f6fe51f9d2f0c4dbab3d0158a6c1752096f2ddb6a45658d617a55aaf2451fca"
+                }
+            ]
+        },
+        {
+            "list": [
+                {
+                    "constructor": 0,
+                    "fields": [
+                        {
+                            "bytes": "75c7eefe02fdf0581ce5b8070e9fc802064eb0ad0d8a2b8aa9c41553"
+                        },
+                        {
+                            "bytes": "30b1cf98969c2589ce6dd99b94e272e699154fa6bfefb3a26665ed48585bac56"
+                        }
+                    ]
+                },
+                {
+                    "constructor": 0,
+                    "fields": [
+                        {
+                            "bytes": "d00419351cecb49e3aae5f2b62638ca349a5abf4e5dfe660895e4c78"
+                        },
+                        {
+                            "bytes": "5dff27ba39630ecb3ded8d442f231de9a1f1cdd42f2d4af4d96a32dfe1700b02"
+                        }
+                    ]
+                },
+                {
+                    "constructor": 0,
+                    "fields": [
+                        {
+                            "bytes": "262f5f818ac13fb9f7260fa5696e6b17d63719463cc5a1407b17dd13"
+                        },
+                        {
+                            "bytes": "2ef7b9b1ff7087148962bdf9abe10ee990fd221c02b46eb8efe85b39f4d84609"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "list": [
+                {
+                    "constructor": 0,
+                    "fields": [
+                        {
+                            "bytes": "14787b05d50a1aaa972e3d101bbf57049e247d257f6b83738dcf3073"
+                        },
+                        {
+                            "bytes": "13b376c8130b8ffb6527d1777fae79a983de1c2bce4be960f6dab332e51b20d2"
+                        }
+                    ]
+                },
+                {
+                    "constructor": 0,
+                    "fields": [
+                        {
+                            "bytes": "9103019caf2d69fb99e09fffa1e28f36ebf77728c5c01b6d0efbfd2d"
+                        },
+                        {
+                            "bytes": "9390ca69e321ce574c6e124af29a7c96aa51f7d0d929f4702c962e63efbf2663"
+                        }
+                    ]
+                },
+                {
+                    "constructor": 0,
+                    "fields": [
+                        {
+                            "bytes": "625b03c7c1a4e6518e041631563429ee5cd184b9f6fc689b75b9fb74"
+                        },
+                        {
+                            "bytes": "61ced02537ae6704fb384efc211c0e3ddeaa002c4a44dc8c6e4b1b9945e7af9c"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
