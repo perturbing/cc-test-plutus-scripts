@@ -4,8 +4,8 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    credential-manager-flake.url = "github:intersectMBO/credential-manager/befb10dfe8aaade091ca8c9d0cfa69e5f324cf46";
-    cardano-node.url = "github:IntersectMBO/cardano-node/8.11.0-pre";
+    credential-manager-flake.url = "github:intersectMBO/credential-manager/cad3cee28d51335d8f7e4ad1ba79d3e9c05d5393";
+    cardano-node.url = "github:IntersectMBO/cardano-node/8.12.0-pre";
   };
 
   outputs = { self, nixpkgs, flake-utils, credential-manager-flake, cardano-node, ... }:

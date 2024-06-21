@@ -19,5 +19,15 @@ cat nativeScripts/thomasNativeScript.policy
 ```
 5) You can compile the CC cold credential script via 
 ```bash
-nix run github:IntersectMBO/credential-manager/e7cc4586bdf167d17bf5f97a66164cf8e35deba5#orchestrator-cli -- cold-credential init -p $(cat nativeScripts/thomasNativeScript.policy) -o thomas-cc-script
+nix run github:IntersectMBO/credential-manager/cad3cee28d51335d8f7e4ad1ba79d3e9c05d5393#orchestrator-cli -- init-cold --testnet \
+ --policy-id $(cat nativeScripts/thomasNativeScript.policy) \
+ --token-name "ff" \
+ --ca-cert ../IOHK/ca-role/ca-cert.pem \
+ --membership-cert ../IOHK/membership-role/carlos/carlos-member-cert.pem \
+ --membership-cert ../IOHK/membership-role/sam/sam-member-cert.pem \
+ --membership-cert ../IOHK/membership-role/thomas/thomas-member-cert.pem \
+ --delegation-cert ../IOHK/delegation-role/carlos/carlos-delegation-cert.pem \
+ --delegation-cert ../IOHK/delegation-role/sam/sam-delegation-cert.pem \
+ --delegation-cert ../IOHK/delegation-role/thomas/thomas-delegation-cert.pem \
+ --out-dir IOHK-cc-scripts
 ```
